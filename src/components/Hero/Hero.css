@@ -1,0 +1,177 @@
+
+.hero-section{
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center; /* Adjust as needed */
+    position: relative;
+    margin-top: 6rem ;
+    gap : 20px;
+    padding: 8rem;
+}
+.section1{
+    width: 484px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 290px;
+}
+
+
+.details{
+    margin-bottom: 38px;
+}
+.details-h1{
+    font-size: 80px;
+    line-height: 85px;
+    font-weight: bold;
+    font-family: PensumPro, "serif";
+    margin: 0px;
+}
+
+.detailsExp{
+    margin-bottom: 40px;
+}
+
+.detailsButton div{
+    display: block;
+}
+.buttonDetail a {
+    color: rgb(229, 97, 53);
+    text-decoration: none;
+    transition: color 0.3s ease 0s;
+}
+.buttonClass{
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: background 275ms ease 0s;
+    height: 55px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background: rgb(229, 97, 53);
+    border-radius: 36px;
+    min-width: 268px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.buttonDesign{
+    font-family: RingsideWide, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, "sans-serif";
+    height: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+.buttonDesignExtend{
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: background 275ms ease 0s;
+    height: 55px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background: rgb(229, 97, 53);
+    border-radius: 36px;
+    min-width: 268px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.image-section{
+    position: absolute;
+  z-index: 3;
+  right: 0; /* Adjust as needed */
+}
+.image-section div{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    display: block;
+}
+.image-1 {
+    width: 1055px;
+    height: 700px;
+    overflow: hidden;
+}
+
+.animation-image{
+    width: 312px;
+    height: 391px;
+    position: absolute;
+    background-image: url(https://siftnewstherapy.com/build/assets/monk.530c042a.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 410px;
+    top: -40px;
+    animation: ivUlFl 9s ease-in-out infinite; 
+}
+@keyframes ivUlFl {
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+    }
+    50% {
+        transform: translate3d(0px, 18px, 0px);
+    }
+    100% {
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+@media (max-width: 1073px){
+    .detailsExp{
+        margin-bottom: 25px;
+    }
+    .details{
+        margin-bottom: 14px;
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .buttonClass{
+        height: 45px;
+        min-width: auto;    
+    }
+    .buttonDesign{
+        font-size: 16px;
+    }
+    .buttonDesignExtend{
+        width: 16px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .image-section{
+        right: -128px;
+    }
+    .image-1{
+        width: 679px;
+        height: 570px;
+    }
+    .image-2{
+        width: 95px;
+        height: 102px;
+        left: 415px;
+        top: 60px;
+    }
+    .image-3{
+
+    }
+    .image-4{
+
+    }
+    .animation-image {
+        width: 183px;
+        height: 226px;
+        left: 243px;
+    }
+}
+
+@media (max-width: 1110px){
+    .image-section{
+        right: -385px;
+    }
+}
